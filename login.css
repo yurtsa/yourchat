@@ -1,0 +1,73 @@
+ body{
+    background: url("https://your-chat.ru/control/login/Simple/images/bg1.jpg");
+    margin: 0;
+  }
+    @font-face {
+    font-family: "Groomer";  
+    src: url("Groomer.otf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal;
+        }
+  #main{
+    width: 70%;
+    background-color: #fff;
+    border-radius: 20px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+    top: 15%;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 5px 5px #CF8968;
+  }
+
+  #img{
+    width: 65%;
+    height:347px;
+    background: url("images/humans.png") no-repeat center;
+    background-clip: border-box;
+    float: left; 
+  }
+  #enter{
+
+    float: left; width: 35%; height: 347px;
+    text-align: center;
+    padding-top: 50px;
+  }
+  #enter .slogan {
+    font-weight:500 ;
+    font-size: 15px;
+  }
+
+  #logo{
+    float: left; width: 40%;height: 70px;        
+  }
+
+  #logo h1{
+    font-family: "Groomer";
+    font-size: 45px; 
+    color: rgb(0, 113, 179);
+    text-align: left;
+    margin-left: 20px;
+    vertical-align: top;
+    margin-top: 10px;
+  }
+
+  #menu{
+    padding-top:15px;
+    background: url("images/bghr.png") no-repeat right;
+    float: left; width: 60%; height: 70px;
+  }
+
+
+  #footer{
+    float: left; width: 100%; height: 100px;
+  }
+  #lfooter{
+    background: url("images/bgfl.png") no-repeat;
+    background-position: bottom left;
+    float: left; width: 50%; height: 100px;
+  }
+  #rfooter{
+    background: url("images/bgfr.png") no-repeat right ;
+    float: left; width: 50%; height: 100px;
+  }
