@@ -8,6 +8,7 @@
     font-style: normal; 
     font-weight: normal;
         }
+
   #main{
     width: 70%;
     background-color: #fff;
@@ -16,30 +17,36 @@
     right: 0;
     left: 0;
     margin: auto;
-    top: 15%;
+    top: 10%;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 5px 5px #CF8968;
   }
 
   #img{
-    width: 65%;
+    width: 60%;
     height:347px;
     background: url("images/humans.png") no-repeat center;
     background-clip: border-box;
+    background-size: 90% 347px;
     float: left; 
   }
-  #enter{
 
-    float: left; width: 35%; height: 347px;
+
+  #enter{
+    position: relative;
+    float: left; width: 40%;
     text-align: center;
     padding-top: 50px;
+    padding-right: 20px;
+    padding-left: 20px;
   }
   #enter .slogan {
-    font-weight:500 ;
+    font-weight:500;
     font-size: 15px;
   }
 
   #logo{
-    float: left; width: 40%;height: 70px;        
+    position: relative;
+    float: left; width: 40%; height: 70px;        
   }
 
   #logo h1{
@@ -53,21 +60,84 @@
   }
 
   #menu{
+    position: relative;
     padding-top:15px;
     background: url("images/bghr.png") no-repeat right;
     float: left; width: 60%; height: 70px;
   }
-
+ 
 
   #footer{
+    position: relative;
     float: left; width: 100%; height: 100px;
   }
   #lfooter{
+    position: relative;
     background: url("images/bgfl.png") no-repeat;
     background-position: bottom left;
     float: left; width: 50%; height: 100px;
   }
   #rfooter{
+    position: relative;
     background: url("images/bgfr.png") no-repeat right ;
     float: left; width: 50%; height: 100px;
+  }
+
+
+  @media screen and (max-width: 980px) {
+    #img {
+      width: 100%;
+      height: 210px;
+      background-size: 95% auto;
+   }
+
+    #menu {
+       height: 0px;
+       width: 95%;
+       background: none;
+       visibility: hidden;
+       padding-top:0px;
+    }
+
+    #main {
+      width: 95%;
+      top: 2%;
+ 
+   }
+
+   #logo {
+      width: 100%;
+ }
+    #logo h1{
+      text-align: center;
+    }
+
+
+    #enter{
+      width: 100%;
+      padding: 10px;
+    }
+    #enter .slogan {
+      font-weight:500;
+      font-size: 15px;
+    }
+
+
+    #footer{
+      border: 1px solid;
+      width: 100%; height: 0px;
+      visibility: hidden;
+    }
+    #lfooter{
+      border: 1px solid;
+      background: none;
+      width: 0%; height: 0px;
+      visibility: hidden;
+    }
+    #rfooter{
+      border: 1px solid;
+      background: none;
+      width: 0%; height: 0px;
+      visibility: hidden;
+    }
   }
