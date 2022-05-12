@@ -9,7 +9,7 @@ body {
   }
     </style>
   </head>
-  <body background="https://your-chat.ru/control/login/Simple/images/bg1.jpg">
+  <body>
     <div id="main">
         <div id="logo"><h1>Your Chat</h1></div>
         <div id="menu">
@@ -40,4 +40,3 @@ body {
 <script data-cfasync="false" src="js/function_login.js<?php echo $bbfv; ?>"></script>
 <script data-cfasync="false" src="js/function_active.js<?php echo $bbfv; ?>"></script>
   </body>
-  
